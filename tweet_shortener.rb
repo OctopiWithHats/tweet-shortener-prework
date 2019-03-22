@@ -17,4 +17,4 @@ end
 
 def word_substitutor(tweet)
   
-  tweet.split(" ") 
+  tweet.split(" ").map do |
