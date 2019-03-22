@@ -19,4 +19,5 @@ def word_substitutor(tweet)
   
   tweet.split(" ").map do |word|
     if dictionary.keys.include?(word.downcase)
-      word = dictionary
+      word = dictionary[word.downcase]
+      
