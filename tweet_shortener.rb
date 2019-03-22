@@ -18,4 +18,4 @@ end
 def word_substitutor(tweet)
   
   tweet.split(" ").map do |word|
-    
+    if dictionary.keys
